@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "storageAccountName": {
-      "value": "smartstimsa01"
+      "value": "smartsa01"
     },
 
     "Location": {
@@ -31,18 +31,18 @@
     },
     "tags":{
     "value": {
-      "Project": "Smartstim",
-      "Owner": "NareshKumar",
+      "Project": "Smart",
+      "Owner": "thadikaran",
       "Environment": "development"
     }
     },
 
     "virtualNetworkName": {
-      "value": "smartstimvnet01"
+      "value": "smartvnet01"
     },
 
     "akssubnetName": {
-      "value": "smartstimvnet01snet01"
+      "value": "smartvnet01snet01"
     },
 
     "vnetAddressPrefixes": {
@@ -58,12 +58,12 @@
     },
 
     "loganalyticsworkspace":{
-      "value": "smartstimlaw01"
+      "value": "smartlaw01"
     },
 
 
     "aksclusterName":{
-      "value": "smartstimaks01"
+      "value": "smartaks01"
     },
 
     "aksIdentitytype":{
@@ -71,11 +71,11 @@
     },
    
     "aksdnsPrefix":{
-      "value": "smartstimaks01-dev"
+      "value": "smartaks01-dev"
     },
 
     "aksnodeResourceGroup": {
-      "value": "smartstimaks01nrg"
+      "value": "smarts01nrg"
     },
 
     "aksnodepoolName":{
@@ -153,11 +153,11 @@
     },
 
     "aksnodeAdminUsername":{
-      "value": "smartstimadmin"
+      "value": "smartadmin"
     },
 
     "containerRegistryName":{
-      "value":"smartstimacr"
+      "value":"smartacr"
     },
     
     "containerRegistrySKU":{
