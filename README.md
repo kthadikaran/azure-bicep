@@ -9,9 +9,8 @@ Azure Bicep is Production-Ready, and Microsoft Support will support it 100%.
 
 
 # Why Azure Bicep?
-ARM templates are not going away, but they are expressed in JSON format, it might not be a great language for authoring resources in a declarative manner and can get complex, especially for large deployments.Azure Bicep is not replacement of ARM template, it is more as an improvement to the JSON ARM(Azure Resource Manager) templates.  
 
-![image](https://user-images.githubusercontent.com/41946619/167297228-984adff3-a216-401f-a849-3e6aac996163.png)  
+ARM templates are not going away, but they are expressed in JSON format, it might not be a great language for authoring resources in a declarative manner and can get complex, especially for large deployments. Azure Bicep is not replacement of ARM template, it is more as an improvement to the JSON ARM(Azure Resource Manager) templates.  
 
 # How Azure Bicep Works?
 
