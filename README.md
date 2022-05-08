@@ -25,15 +25,12 @@ You'll define your resources within a Bicep file called a template, then submit
 
 ![image](https://user-images.githubusercontent.com/41946619/167297262-f4e1a13c-816d-4b9a-86d0-1df94081b16a.png)
 
-# When is Bicep right tool?
+# When is Bicep right tool?  
 
-If you're using Azure as your cloud platform, consider these advantages of using Bicep:
+If you're using Azure as your cloud platform, consider these advantages of using Bicep:  
 
-Azure-native		: With Bicep, you're using a language that is native to Azure. 
-Azure integration	: Both ARM templates and Bicep, are fully integrated within the Azure platform. 
-Azure support 	: Bicep is a fully supported product with Microsoft Support.
-No state management	: Azure automatically keeps track of this state for you.
-Easy transition from JSON
-![image](https://user-images.githubusercontent.com/41946619/167297278-58042dbd-f74d-4376-bcdb-8f303dfa845b.png)
-
-
+Azure-native		: With Bicep, you're using a language that is native to Azure.   
+Azure integration	: Both ARM templates and Bicep, are fully integrated within the Azure platform.   
+Azure support 	: Bicep is a fully supported product with Microsoft Support.  
+No state management	: Azure automatically keeps track of this state for you.  
+Easy transition from JSON  
