@@ -13,12 +13,13 @@ Azure Bicep is Production-Ready, and Microsoft Support will support it 100%.
 ARM templates are not going away, but they are expressed in JSON format, it might not be a great language for authoring resources in a declarative manner and can get complex, especially for large deployments. Azure Bicep is not replacement of ARM template, it is more as an improvement to the JSON ARM(Azure Resource Manager) templates.  
 
 # How Azure Bicep Works?
-
 Bicep is a language for declaratively deploying Azure resources. Using Bicep, you can define how your Azure resources should be configured and deployed. You'll define your resources within a Bicep file called a template, then submit the template to Azure Resource Manager. Resource Manager then takes responsibility for deploying each resource within the template on your behalf.  
 
-![image](https://user-images.githubusercontent.com/41946619/167297240-bc4e27ac-8033-451e-b25b-3bae94f22472.png)  
 
-![image](https://user-images.githubusercontent.com/41946619/167297262-f4e1a13c-816d-4b9a-86d0-1df94081b16a.png)  
+![image](https://user-images.githubusercontent.com/41946619/167297240-bc4e27ac-8033-451e-b25b-3bae94f22472.png)    
+
+![image](https://user-images.githubusercontent.com/41946619/167297262-f4e1a13c-816d-4b9a-86d0-1df94081b16a.png)    
+
 
 # When is Bicep right tool?  
 
