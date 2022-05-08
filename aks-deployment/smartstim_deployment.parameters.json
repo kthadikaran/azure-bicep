@@ -1,0 +1,175 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "value": "smartstimsa01"
+    },
+
+    "Location": {
+      "value": "eastus"
+    },
+
+    "storageAccountKind": {
+      "value": "StorageV2"
+    },
+
+    "storageAccountSKU": {
+      "value": "Standard_LRS"
+    },
+
+    "storageAccountAccessTier": {
+      "value": "Hot"
+    },
+
+    "allowBlobPublicAccess": {
+      "value": false
+    },
+
+    "minimumTlsVersion": {
+      "value": "TLS1_2"
+    },
+    "tags":{
+    "value": {
+      "Project": "Smartstim",
+      "Owner": "NareshKumar",
+      "Environment": "development"
+    }
+    },
+
+    "virtualNetworkName": {
+      "value": "smartstimvnet01"
+    },
+
+    "akssubnetName": {
+      "value": "smartstimvnet01snet01"
+    },
+
+    "vnetAddressPrefixes": {
+      "value": ["10.1.0.0/16"]
+    },
+
+    "akssubnetIPAddressPrefix": {
+      "value": "10.1.1.0/24"
+    },
+
+    "aksnodesshkeyname":{
+    "value": "bicepsshkey01"
+    },
+
+    "loganalyticsworkspace":{
+      "value": "smartstimlaw01"
+    },
+
+
+    "aksclusterName":{
+      "value": "smartstimaks01"
+    },
+
+    "aksIdentitytype":{
+      "value": "SystemAssigned"
+    },
+   
+    "aksdnsPrefix":{
+      "value": "smartstimaks01-dev"
+    },
+
+    "aksnodeResourceGroup": {
+      "value": "smartstimaks01nrg"
+    },
+
+    "aksnodepoolName":{
+      "value": "pool01"
+    },
+
+    "aksosDiskSizeGB":{
+      "value": 50
+    },
+    "aksnodeCount":{
+      "value": 2
+    },
+
+    "aksnodeVmSize":{
+      "value": "Standard_DS3_v2"
+    },
+
+    "aksclusternodeOSType":{
+      "value": "Linux"
+    },
+    
+    "aksVirtualMachineScaleSets":{
+      "value": "VirtualMachineScaleSets"
+    },
+    
+    "aksagentPoolProfilesMode":{
+      "value": "System"
+    },
+
+    "aksenableEncryptionAtHost":{
+      "value": false
+    },
+    "aksenableAutoScaling": {
+      "value": true
+    },
+
+    "aksavailabilityZones":{
+      "value": ["1","2"]
+    },
+
+    "aksminNodeCount":{
+      "value": 1
+    },
+
+    "aksmaxNodeCount":{
+     "value": 2
+    },
+
+    "aksloadBalancerSku":{
+      "value": "standard"
+    },
+    
+    "aksnetworkPlugin": {
+      "value": "Kubenet"
+    },
+
+    "aksserviceCidr": {
+      "value": "10.0.0.0/16"
+    },
+    
+    "aksdnsServiceIP":{
+      "value": "10.0.0.10"
+    },
+
+    "aksdockerBridgeCidr":{
+      "value": "172.17.0.1/16"
+    },
+
+    "aksazurepolicyStatus":{
+      "value": false
+    },
+
+    "aksomsagentsStatus":{
+      "value": true
+    },
+
+    "aksnodeAdminUsername":{
+      "value": "smartstimadmin"
+    },
+
+    "containerRegistryName":{
+      "value":"smartstimacr"
+    },
+    
+    "containerRegistrySKU":{
+      "value":"Standard"
+    },
+
+    "acradminUserStatus":{
+      "value": true
+    },
+    
+    "roleAcrPull": {
+      "value": "n4545yh-5660-4er0-tu87-445ffeefv443"
+    }
+  }
+}
