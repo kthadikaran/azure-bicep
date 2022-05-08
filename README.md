@@ -1,20 +1,19 @@
 # What is Azure Bicep?
 
-Bicep is a Domain-Specific Language that uses declarative syntax and makes building ARM(Azure Resource Manager) templates easier to set up azure resources.  
-
-Bicep is intended to be easy to understand and straightforward to learn, regardless of your experience with other programming languages.  
+Bicep is a Domain-Specific Language that uses declarative syntax and makes building ARM(Azure Resource Manager) templates easier to set up azure resources. Bicep is intended to be easy to understand and straightforward to learn, regardless of your experience with other programming languages.  
 
 Day Zero support for all Azure resource types and API versions.  
 Simpler Syntax.  
 Azure Bicep is Production-Ready, and Microsoft Support will support it 100%.  
-![image](https://user-images.githubusercontent.com/41946619/167297174-35e04309-bdba-4f95-a835-69412ac05e39.png)  
+
+
 
 # Why Azure Bicep?
 ARM templates are not going away, but they are expressed in JSON format, it might not be a great language for authoring resources in a declarative manner and can get complex, especially for large deployments.Azure Bicep is not replacement of ARM template, it is more as an improvement to the JSON ARM(Azure Resource Manager) templates.  
 
 ![image](https://user-images.githubusercontent.com/41946619/167297228-984adff3-a216-401f-a849-3e6aac996163.png)  
 
-# How Azure Bicep Works?![image]
+# How Azure Bicep Works?
 
 Bicep is a language for declaratively deploying Azure resources. Using Bicep, you can define how your Azure resources should be configured and deployed. You'll define your resources within a Bicep file called a template, then submit the template to Azure Resource Manager. Resource Manager then takes responsibility for deploying each resource within the template on your behalf.  
 
